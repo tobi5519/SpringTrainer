@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <title>About Spring Trainer</title>
 </head>
 <body>
+
+<div th:replace="fragments/header :: header" />
+
 <p>Spring Trainer is for learning the Spring framework for Java</p>
 <p th:utext="${name}"></p>
 </body>

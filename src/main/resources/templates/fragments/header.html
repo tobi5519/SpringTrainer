@@ -1,0 +1,25 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:fragment="header-css">
+        <!-- this is header-css -->
+
+        <link href="../static/header.css" rel="stylesheet" th:href="@{header.css}" />
+
+    </div>
+
+</head>
+<body>
+<div th:fragment="header">
+    <!-- this is header -->
+
+        <div class="container">
+            <div id="foo" >
+                <a id="test" th:href="@{/}">Home</a> <a id="foo" th:href="@{/about}">about</a>
+            </div>
+        </div>
+
+</div>
+
+</body>
+</html>

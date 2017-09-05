@@ -1,0 +1,13 @@
+body {
+    background-color: cornflowerblue;
+
+    margin: 0;
+}
+
+p {
+    font-size: 1cm;
+}
+
+#test {
+    font-style: italic;
+}
